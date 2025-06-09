@@ -98,9 +98,12 @@
                     <p class="mb-4 justify-text wow fadeInDown" data-wow-delay="0.1s">We are available 24/7 – whether it's a small parcel or a full logistics contract for your business. 
                         Please fill your information, and we’ll get in touch with you as soon as possible.</p>
                     <div class="bg-light p-4 wow fadeInDown" data-wow-delay="0.1s">
-                        <!-- <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe> -->
+                        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
                         <form 
                         action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfSZLsWavA1HPfQkOMTWA4qX2JC1Gsv--p_rDHrDXuUTs30iA/formResponse"
+                        method="POST"
+                        target="hidden_iframe"
+                        onsubmit="formSubmitted();"
                         >
                             <div class="row g-3">
                                 <div class="col-12">

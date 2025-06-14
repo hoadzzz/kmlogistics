@@ -1,214 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>KM Global Logistics</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
 
     <!-- Favicon -->
-    <link href="img/logo.jpg" rel="icon">
+    <link href="img/logo-white.jpg" rel="icon" />
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <!-- Spinner Start -->
-    <div id="spinner"
-        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-grow text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
     </div>
     <!-- Spinner End -->
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
-        <a href="index.html" class="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5">
-            <img src="img/logo.jpg" alt="Logo" style="max-height: 75px;">
-        </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Services</a>
-                <a href="contact.html" class="nav-item nav-link active">Contact</a>
-                
-            </div>
-            <div class="">
-                <div class="d-inline-flex align-items-center switch scale-half">
-                    <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
-                    <label for="language-toggle"></label>
-                    <span class="off">VN</span>
-                    <span class="on">EN</span>
-                </div>
-            </div>
-            <!-- <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-headphones text-primary me-3"></i>+012 345 6789</h4> -->
+    <nav
+      class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0"
+    >
+      <a
+        href="index.html"
+        class="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5"
+      >
+        <img src="img/logo.jpg" alt="Logo" style="max-height: 75px" />
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler me-4"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+          <a href="index.html" class="nav-item nav-link">Home</a>
+          <a href="about.html" class="nav-item nav-link">About</a>
+          <a href="service.html" class="nav-item nav-link">Services</a>
+          <a href="contact.html" class="nav-item nav-link active">Contact</a>
         </div>
+        <div class="">
+          <div class="d-inline-flex align-items-center switch scale-half">
+            <input
+              id="language-toggle"
+              class="check-toggle check-toggle-round-flat"
+              type="checkbox"
+            />
+            <label for="language-toggle"></label>
+            <span class="off">VN</span>
+            <span class="on">EN</span>
+          </div>
+        </div>
+        <!-- <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-headphones text-primary me-3"></i>+012 345 6789</h4> -->
+      </div>
     </nav>
     <!-- Navbar End -->
 
-
     <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;">
-        <div class="container py-5">
-            <h1 class="display-3 text-white mb-2 animated slideInDown"><span class="text-primary">KM GLOBAL
-            </span>LOGISTICS CO.,LTD</h1>
-            <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                    <li class="breadcrumb-item text-white active" aria-current="page">Contact</li>
-                </ol>
-            </nav>
-        </div>
+    <div class="container-fluid page-header py-5" style="margin-bottom: 6rem">
+      <div class="container py-5">
+        <h1 class="display-3 text-white mb-2 animated slideInDown">
+          <span class="text-primary">KM </span> GLOBAL LOGISTICS CO., LTD
+        </h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a class="text-white" href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item text-white active" aria-current="page">
+              Contact
+            </li>
+          </ol>
+        </nav>
+      </div>
     </div>
     <!-- Page Header End -->
 
-
     <!-- Contact Start -->
     <div class="container-fluid overflow-hidden py-5 px-lg-0">
-        <div class="container contact-page py-5 px-lg-0">
-            <div class="row g-5 mx-lg-0">
-                <div class="col-md-6 contact-form wow fadeIn" data-wow-delay="0.1s">
-                    <h6 class="text-secondary text-uppercase wow fadeInDown" data-wow-delay="0.1s">#Contact</h6>
-                    <h1 class="mb-4 wow fadeInDown" data-wow-delay="0.1s">Contact us for support and consultation.</h1>
-                    <p class="mb-4 justify-text wow fadeInDown" data-wow-delay="0.1s">We are available 24/7 – whether it's a small parcel or a full logistics contract for your business. 
-                        Please fill your information, and we’ll get in touch with you as soon as possible.</p>
-                    <div class="bg-light p-4 wow fadeInDown" data-wow-delay="0.1s">
-                        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
-                        <form 
-                        action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfSZLsWavA1HPfQkOMTWA4qX2JC1Gsv--p_rDHrDXuUTs30iA/formResponse"
-                        method="POST"
-                        target="hidden_iframe"
-                        onsubmit="formSubmitted();"
-                        >
-                            <div class="row g-3">
-                                <div class="col-12">
-                                    <input type="text" class="form-control border-0" name="entry.1944530592" placeholder="Your Name" style="height: 55px;">
-                                </div>
-                                <div class="col-12">
-                                    <input type="email" class="form-control border-0" name="entry.1408216351" placeholder="Your Email" style="height: 55px;">
-                                </div>
-                                <div class="col-12">
-                                    <input type="text" class="form-control border-0" name="entry.134124479" placeholder="Your Phone Number" style="height: 55px;">
-                                </div>
-                                <div class="col-12">
-                                    <textarea class="form-control border-0" name="entry.1527360012" placeholder="Special Note"></textarea>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Submit</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+      <div class="container contact-page py-5 px-lg-0">
+        <div class="row g-5 mx-lg-0">
+          <div class="col-md-6 contact-form wow fadeIn" data-wow-delay="0.1s">
+            <h6
+              class="text-secondary text-uppercase wow fadeInDown"
+              data-wow-delay="0.1s"
+            >
+              #Contact
+            </h6>
+            <h1 class="mb-4 wow fadeInDown" data-wow-delay="0.1s">
+              Contact us for support and consultation.
+            </h1>
+            <p class="mb-4 justify-text wow fadeInDown" data-wow-delay="0.1s">
+              Let’s Talk Logistics – KM GLOBAL LOGISTICS is Here for You.
+              Available 24/7, our team is ready to support your every logistics
+              need.
+            </p>
+            <div class="bg-light p-4 wow fadeInDown" data-wow-delay="0.1s">
+              <iframe
+                name="hidden_iframe"
+                id="hidden_iframe"
+                style="display: none"
+              ></iframe>
+              <form
+                id="form-quote"
+                action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfSZLsWavA1HPfQkOMTWA4qX2JC1Gsv--p_rDHrDXuUTs30iA/formResponse"
+                method="POST"
+                target="hidden_iframe"
+                onsubmit="return formSubmitted();"
+              >
+                <div class="row g-3">
+                  <div class="col-12">
+                    <input
+                      type="text"
+                      class="form-control border-0"
+                      name="entry.1944530592"
+                      placeholder="Your Name *"
+                      style="height: 55px"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <input
+                      type="email"
+                      class="form-control border-0"
+                      name="entry.1408216351"
+                      placeholder="Your Email *"
+                      style="height: 55px"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <input
+                      type="text"
+                      class="form-control border-0"
+                      name="entry.134124479"
+                      placeholder="Your Phone Number *"
+                      style="height: 55px"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <textarea
+                      class="form-control border-0"
+                      name="entry.1527360012"
+                      placeholder="Special Note"
+                    ></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button class="btn btn-primary w-100 py-3" type="submit">
+                      Send Request
+                    </button>
+                  </div>
                 </div>
-                <div class="col-md-6 pe-5 wow fadeInRight" data-wow-delay="0.1s">
-                    <div class="position-relative h-100">
-                        <iframe class="position-absolute w-100 h-100" style="object-fit: cover;"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.0444179566657!2d106.81985847570357!3d10.807910058610863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175213446d26cc9%3A0xfc0f4257e6a05279!2zMjUgxJDGsOG7nW5nIEE1LCBUcsaw4budbmcgVGjhuqFuaCwgVGjhu6cgxJDhu6ljLCBI4buTIENow60gTWluaCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1748343636433!5m2!1sen!2s"
-                            frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                    </div>
-                </div>
+              </form>
             </div>
+          </div>
+          <div class="col-md-6 pe-5 wow fadeInRight" data-wow-delay="0.1s">
+            <div class="position-relative h-100">
+              <iframe
+                class="position-absolute w-100 h-100"
+                style="object-fit: cover"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.0444179566657!2d106.81985847570357!3d10.807910058610863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175213446d26cc9%3A0xfc0f4257e6a05279!2zMjUgxJDGsOG7nW5nIEE1LCBUcsaw4budbmcgVGjhuqFuaCwgVGjhu6cgxJDhu6ljLCBI4buTIENow60gTWluaCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1748343636433!5m2!1sen!2s"
+                frameborder="0"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
+              ></iframe>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <div class="container-fluid overflow-hidden py-5 px-lg-0">
-        <div class="container about py-5 px-lg-0">
-            <div class="row g-5 mx-lg-0">
-                <div class="col-lg-4 wow fadeInDown" data-wow-delay="0.1s" style="min-height: 400px; height: 100%; margin-left: 300px;">
-                    <div class="position-relative h-100" style="height: 100%;">
-                        <img class="" src="img/vitual.jpg">
-                    </div>
-                </div>
-                <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="text-secondary text-uppercase mb-3">#Infomations</h6>
-                    <h1 class="mb-3">Company Infomations</h1>
-                    <div class="wow fadeInDown" data-wow-delay="0.1s">
-                        <p style="font-size: 25px; font-weight: 600;"><i class="fas fa-map-marker-alt" style="color: #ED1B24; margin-right: 12px;"></i> Address: <strong style="color: #ED1B24"> No. 25, A5 Street</strong> , Quarter 9, Dong Tang Long Urban Area, Truong Thanh Ward, <strong style="color: #ED1B24">Thu Duc City</strong>, Ho Chi Minh
-                            City, VietNam.</p>
-                        <p style="font-size: 25px; font-weight: 600;"><i class="fas fa-phone" style="color: #ED1B24; margin-right: 8px"></i> Hotline/Zalo: <strong style="color: #ED1B24"> 0938.27.27.09 | 0979.33.54.39</strong></p>
-                        <p style="font-size: 25px; font-weight: 600;"><i class="fas fa-envelope-open" style="color: #ED1B24; margin-right: 8px"></i> Email: <strong style="color: #ED1B24"> support@kmlogistics.com.vn </strong></p>
-                        <p style="font-size: 25px; font-weight: 600;">
-                            <i class="fab fa-facebook" style="color: #ED1B24; margin-right: 8px"></i> 
-                            Facebook: 
-                            <a href="https://www.facebook.com/profile.php?id=61576221571286" target="_blank" style="text-decoration: none; color: inherit;">
-                                <strong style="color: #ED1B24"> KM Global Logistics Co., Ltd </strong>
-                            </a>
-                        </p>
-                    </div>
-                </div>
+      <div class="container about py-5 px-lg-0">
+        <div class="row g-5 mx-lg-0 align-items-center">
+          <!-- Cột ảnh -->
+          <div
+            class="col-lg-5 offset-lg-1 wow fadeInDown"
+            data-wow-delay="0.1s"
+          >
+            <div class="position-relative">
+              <img
+                src="img/vitual.jpg"
+                class="img-fluid rounded shadow"
+                alt="Company Image"
+              />
             </div>
+          </div>
+
+          <!-- Cột thông tin -->
+          <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
+            <h6 class="text-secondary text-uppercase mb-3">#Informations</h6>
+            <h1 class="mb-4">Company Informations</h1>
+
+            <!-- Địa chỉ -->
+            <p class="fs-5 fw-semibold">
+              <i class="fas fa-map-marker-alt me-2 text-danger"></i>
+              Address: No. 25, A5 Street, Quarter 9, Dong Tang Long Urban Area,
+              Truong Thanh Ward, Thu Duc City, Ho Chi Minh City, VietNam.
+            </p>
+            <!-- Hotline -->
+            <p class="fs-5 fw-semibold">
+              <i class="fas fa-phone me-2 text-danger"></i>
+              Hotline/Zalo: 0938.27.27.09 | 0979.33.54.39
+            </p>
+            <p class="fs-5 fw-semibold">
+              <i class="fa fa-phone-square-alt me-2 text-danger"></i>
+              Landline: 028.3636.9783
+            </p>
+            <!-- Email -->
+            <p class="fs-5 fw-semibold">
+              <i class="fas fa-envelope-open me-2 text-danger"></i>
+              Email: support@kmlogistics.com.vn
+            </p>
+            <!-- Facebook -->
+            <p class="fs-5 fw-semibold">
+              <i class="fab fa-facebook me-2 text-danger"></i>
+              Facebook:
+              <a
+                href="https://www.facebook.com/profile.php?id=61576221571286"
+                target="_blank"
+                class="text-reset text-decoration-underline"
+              >
+                KM Global Logistics Co., Ltd
+              </a>
+            </p>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-12 col-md-6">
-                    <h4 class="text-light mb-4">Infomations</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3 justify-text"></i>No. 25, A5 Street, Quarter 9, Dong Tang Long Urban Area, Truong Thanh Ward, Thu Duc City, Ho Chi Minh City, VietNam</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3 justify-text"></i>0938.27.27.09 | 0979.33.54.39</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>support@kmlogistics.com.vn </p>
-                    <div class="d-flex pt-2">
-                        <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a> -->
-                        <a class="btn btn-outline-light btn-social" 
-                        href="https://www.facebook.com/profile.php?id=61576221571286" 
-                        target="_blank"
-                        rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
-                        <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a> -->
-                        <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a> -->
-                    </div>
-                </div>
-                <!-- <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Services</h4>
-                    <a class="btn btn-link" href="">Air Freight</a>
-                    <a class="btn btn-link" href="">Sea Freight</a>
-                    <a class="btn btn-link" href="">Road Freight</a>
-                    <a class="btn btn-link" href="">Logistic Solutions</a>
-                    <a class="btn btn-link" href="">Industry solutions</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Quick Links</h4>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
-                </div> -->
+    <div
+      class="container-fluid bg-dark text-light footer pt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+      style="margin-top: 6rem"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-12 col-md-6">
+            <h4 class="text-light mb-4">Contact Information</h4>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3 justify-text"></i>No. 25, A5
+              Street, Quarter 9, Dong Tang Long Urban Area, Truong Thanh Ward,
+              Thu Duc City, Ho Chi Minh City, VietNam
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-phone-alt me-3 justify-text"></i>0938.27.27.09 |
+              0979.33.54.39
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-phone-square-alt me-3 justify-text"></i
+              >028.3636.9783
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>support@kmlogistics.com.vn
+            </p>
+            <div class="d-flex align-items-center pt-2">
+              <a
+                class="btn btn-outline-light btn-social me-2"
+                href="https://www.facebook.com/profile.php?id=61576221571286"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <p class="mb-0">
+                <a
+                  href="https://www.facebook.com/profile.php?id=61576221571286"
+                  class="text-light text-decoration-none"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  KM Global Logistics Co., Ltd
+                </a>
+              </p>
             </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- Footer End -->
 
-
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
-
+    <a
+      href="#"
+      class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -221,6 +339,5 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>

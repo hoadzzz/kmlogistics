@@ -1,189 +1,316 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>KM Global Logistics</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
 
     <!-- Favicon -->
-    <link href="../img/logo.jpg" rel="icon">
+    <link href="../img/logo-white.jpg" rel="icon" />
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
 
     <!-- Libraries Stylesheet -->
-    <link href="../lib/animate/animate.min.css" rel="stylesheet">
-    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../lib/animate/animate.min.css" rel="stylesheet" />
+    <link
+      href="../lib/owlcarousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Template Stylesheet -->
-    <link href="../css/style.css" rel="stylesheet">
-</head>
+    <link href="../css/style.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-grow text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
     </div>
     <!-- Spinner End -->
 
-
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
-        <a href="index.html" class="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5">
-            <img src="../img/logo.jpg" alt="Logo" style="max-height: 75px;">
-        </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link">Trang chủ</a>
-                <a href="about.html" class="nav-item nav-link">Giới thiệu</a>
-                <a href="service.html" class="nav-item nav-link active">Dịch vụ</a>
-                <a href="contact.html" class="nav-item nav-link">Liên hệ</a>
-            </div>
-            <div class="">
-                <div class="d-inline-flex align-items-center switch scale-half">
-                    <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
-                    <label for="language-toggle"></label>
-                    <span class="off">VN</span>
-                    <span class="on">EN</span>
-                </div>
-            </div>
-            <!-- <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-headphones text-primary me-3"></i>+012 345 6789</h4> -->
+    <nav
+      class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0"
+    >
+      <a href="index.html" class="navbar-brand bg d-flex align-items-center">
+        <img src="../img/logo.jpg" alt="Logo" style="max-height: 75px" />
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler me-4"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+          <a href="index.html" class="nav-item nav-link">Trang chủ</a>
+          <a href="about.html" class="nav-item nav-link">Giới thiệu</a>
+          <a href="service.html" class="nav-item nav-link active">Dịch vụ</a>
+          <a href="contact.html" class="nav-item nav-link">Liên hệ</a>
         </div>
+        <div class="">
+          <div class="d-inline-flex align-items-center switch scale-half">
+            <input
+              id="language-toggle"
+              class="check-toggle check-toggle-round-flat"
+              type="checkbox"
+            />
+            <label for="language-toggle"></label>
+            <span class="off">VN</span>
+            <span class="on">EN</span>
+          </div>
+        </div>
+        <!-- <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-headphones text-primary me-3"></i>+012 345 6789</h4> -->
+      </div>
     </nav>
     <!-- Navbar End -->
 
-
     <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;">
-        <div class="container py-5">
-            <h1 class="display-3 text-white mb-2 animated slideInDown"><span class="text-primary">KM GLOBAL
-            </span>LOGISTICS CO.,LTD</h1>
-            <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                    <li class="breadcrumb-item text-white active" aria-current="page">Services</li>
-                </ol>
-            </nav>
-        </div>
+    <div class="container-fluid page-header py-5" style="margin-bottom: 6rem">
+      <div class="container py-5">
+        <h1 class="display-3 text-white mb-2 animated slideInDown">
+          <span class="text-primary">KM </span>GLOBAL LOGISTICS CO.,LTD
+        </h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a class="text-white" href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item text-white active" aria-current="page">
+              Services
+            </li>
+          </ol>
+        </nav>
+      </div>
     </div>
     <!-- Page Header End -->
 
-
     <!-- Service Start -->
     <div class="container-xxl py-5">
-        <div class="container py-5">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="text-secondary text-uppercase">#Our Services</h6>
-                <h1 class="mb-2">KM GLOBAL LOGISTICS</h1>
-                <p class="mb-5" style="font-size: 25px;">Tại KM Global Logistics, chúng tôi cung cấp chuỗi dịch vụ logistics
-                    toàn diện, giúp khách hàng tiết kiệm thời gian – tối ưu chi phí – vận
-                    hành hiệu quả. – phù hợp cho cá nhân và doanh nghiệp.</p>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4 wow fadeInUp d-flex" data-wow-delay="0.5s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="../img/service-2.jpg" alt="">
-                        </div>
-                        <h4 class="mb-3">Vận tải đường biển(FCL & LCL) - Nội địa và quốc tế.</h4>
-                        <p class="justify-text mb-1"><i class="fas fa-dot-circle"></i> Giao nhận hàng nguyên container (FCL) và hàng lẻ (LCL).</p>
-                        <p class="justify-text mb-1"><i class="fas fa-dot-circle"></i> Đặc biệt mạnh các tuyến: USA & CANADA.</p>
-                        <p class="justify-text mb-1"><i class="fas fa-dot-circle"></i> Hỗ trợ đầy đủ từ cảng đi đến cảng đến (door-to-door nếu cần)</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp d-flex" data-wow-delay="0.3s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="../img/service-1.jpg" alt="">
-                        </div>
-                        <h4 class="mb-3">Vận tải hàng không(Air&Express) – Nội địa & Quốc tế</h4>
-                        <p class="justify-text mb-1"><i class="fas fa-dot-circle"></i> Vận chuyển nhanh chóng, linh hoạt theo nhu cầu.</p>
-                        <p class="justify-text mb-1"><i class="fas fa-dot-circle"></i> Dịch vụ chuyển phát nhanh quốc tế (Express).</p>
-                        <p class="justify-text mb-1"><i class="fas fa-dot-circle"></i> Theo dõi hành trình hàng hóa, đảm bảo đúng tiến độ</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp d-flex" data-wow-delay="0.7s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="../img/containerkm.jpg" alt="">
-                        </div>
-                        <h4 class="mb-3">Vận tải đường bộ</h4>
-                        <p class="justify-text mb-1"><i class="fas fa-dot-circle"></i> Giao nhận hàng hóa nội địa bằng xe tải, container, xe chuyên dụng.</p>
-                        <p class="justify-text mb-1"><i class="fas fa-dot-circle"></i> Dịch vụ door-to-door, bốc xếp, dán nhãn, lên – xuống hàng.</p>
-                        <p class="justify-text mb-1"><i class="fas fa-dot-circle"></i> Cập nhật trạng thái đơn hàng thường xuyên</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp d-flex" data-wow-delay="0.3s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="../img/declaration.jpg" alt="">
-                        </div>
-                        <h4 class="mb-3">Dịch vụ môi giới hải quan</h4>
-                        <p class="justify-text mb-1"><i class="fas fa-dot-circle"></i> Khai báo hải quan cho hàng xuất nhập khẩu.</p>
-                        <p class="justify-text mb-1"><i class="fas fa-dot-circle"></i> Hỗ trợ chứng từ, kiểm hóa, mã HS Code.</p>
-                        <p class="justify-text mb-1"><i class="fas fa-dot-circle"></i> Giải pháp tuân thủ pháp lý – tiết kiệm chi phí.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp d-flex" data-wow-delay="0.5s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="../img/km3.jpg" alt="">
-                        </div>
-                        <h4 class="mb-3">Total Logistics – Giải pháp toàn diện</h4>
-                        <p class="justify-text mb-1"><i class="fas fa-dot-circle"></i> Kết hợp các dịch vụ: vận chuyển – lưu kho – giao nhận – hải quan.</p>
-                        <p class="justify-text mb-1"><i class="fas fa-dot-circle"></i> Tối ưu toàn bộ chuỗi cung ứng.</p>
-                        <p class="justify-text mb-1"><i class="fas fa-dot-circle"></i> Dịch vụ trọn gói – bạn chỉ cần giao hàng, phần còn lại để chúng tôi lo.</p>
-                    </div>
-                </div>
-            </div>
+      <div class="container py-5">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+          <h6 class="text-secondary text-uppercase">#Our Services</h6>
+          <h1 class="mb-2">KM GLOBAL LOGISTICS</h1>
+          <p class="mb-5" style="font-size: 25px">
+            Tại KM Global Logistics, chúng tôi cung cấp chuỗi dịch vụ logistics
+            toàn diện, giúp khách hàng tiết kiệm thời gian – tối ưu chi phí –
+            vận hành hiệu quả. – phù hợp cho cá nhân và doanh nghiệp.
+          </p>
         </div>
+        <div class="row g-4">
+          <div
+            class="col-md-6 col-lg-4 wow fadeInUp d-flex"
+            data-wow-delay="0.5s"
+          >
+            <div class="service-item p-4">
+              <div class="overflow-hidden mb-4">
+                <img class="img-fluid" src="../img/service-2.jpg" alt="" />
+              </div>
+              <h4 class="mb-3">
+                Vận tải đường biển(FCL & LCL) - Nội địa và quốc tế.
+              </h4>
+              <p class="justify-text mb-1">
+                <i class="fas fa-dot-circle"></i> Giao nhận hàng nguyên
+                container (FCL) và hàng lẻ (LCL).
+              </p>
+              <p class="justify-text mb-1">
+                <i class="fas fa-dot-circle"></i> Đặc biệt mạnh các tuyến: USA &
+                CANADA.
+              </p>
+              <p class="justify-text mb-1">
+                <i class="fas fa-dot-circle"></i> Hỗ trợ đầy đủ từ cảng đi đến
+                cảng đến (door-to-door nếu cần)
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-4 wow fadeInUp d-flex"
+            data-wow-delay="0.3s"
+          >
+            <div class="service-item p-4">
+              <div class="overflow-hidden mb-4">
+                <img class="img-fluid" src="../img/service-1.jpg" alt="" />
+              </div>
+              <h4 class="mb-3">
+                Vận tải hàng không(Air&Express) – Nội địa & Quốc tế
+              </h4>
+              <p class="justify-text mb-1">
+                <i class="fas fa-dot-circle"></i> Vận chuyển nhanh chóng, linh
+                hoạt theo nhu cầu.
+              </p>
+              <p class="justify-text mb-1">
+                <i class="fas fa-dot-circle"></i> Dịch vụ chuyển phát nhanh quốc
+                tế (Express).
+              </p>
+              <p class="justify-text mb-1">
+                <i class="fas fa-dot-circle"></i> Theo dõi hành trình hàng hóa,
+                đảm bảo đúng tiến độ
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-4 wow fadeInUp d-flex"
+            data-wow-delay="0.7s"
+          >
+            <div class="service-item p-4">
+              <div class="overflow-hidden mb-4">
+                <img class="img-fluid" src="../img/containerkm.jpg" alt="" />
+              </div>
+              <h4 class="mb-3">Vận tải đường bộ</h4>
+              <p class="justify-text mb-1">
+                <i class="fas fa-dot-circle"></i> Giao nhận hàng hóa nội địa
+                bằng xe tải, container, xe chuyên dụng.
+              </p>
+              <p class="justify-text mb-1">
+                <i class="fas fa-dot-circle"></i> Dịch vụ door-to-door, bốc xếp,
+                dán nhãn, lên – xuống hàng.
+              </p>
+              <p class="justify-text mb-1">
+                <i class="fas fa-dot-circle"></i> Cập nhật trạng thái đơn hàng
+                thường xuyên
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-4 wow fadeInUp d-flex"
+            data-wow-delay="0.3s"
+          >
+            <div class="service-item p-4">
+              <div class="overflow-hidden mb-4">
+                <img class="img-fluid" src="../img/declaration.jpg" alt="" />
+              </div>
+              <h4 class="mb-3">Dịch vụ môi giới hải quan</h4>
+              <p class="justify-text mb-1">
+                <i class="fas fa-dot-circle"></i> Khai báo hải quan cho hàng
+                xuất nhập khẩu.
+              </p>
+              <p class="justify-text mb-1">
+                <i class="fas fa-dot-circle"></i> Hỗ trợ chứng từ, kiểm hóa, mã
+                HS Code.
+              </p>
+              <p class="justify-text mb-1">
+                <i class="fas fa-dot-circle"></i> Giải pháp tuân thủ pháp lý –
+                tiết kiệm chi phí.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-4 wow fadeInUp d-flex"
+            data-wow-delay="0.5s"
+          >
+            <div class="service-item p-4">
+              <div class="overflow-hidden mb-4">
+                <img class="img-fluid" src="../img/km3.jpg" alt="" />
+              </div>
+              <h4 class="mb-3">Total Logistics – Giải pháp toàn diện</h4>
+              <p class="justify-text mb-1">
+                <i class="fas fa-dot-circle"></i> Kết hợp các dịch vụ: vận
+                chuyển – lưu kho – giao nhận – hải quan.
+              </p>
+              <p class="justify-text mb-1">
+                <i class="fas fa-dot-circle"></i> Tối ưu toàn bộ chuỗi cung ứng.
+              </p>
+              <p class="justify-text mb-1">
+                <i class="fas fa-dot-circle"></i> Dịch vụ trọn gói – bạn chỉ cần
+                giao hàng, phần còn lại để chúng tôi lo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Service End -->
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-12 col-md-6">
-                    <h4 class="text-light mb-4">Thông tin</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3 justify-text"></i>Số 25, Đường A5, Khu phố 9, Khu đô thị Đông Tăng Long, Phường Trường Thạnh, Thành phố Thủ Đức, TP. Hồ Chí Minh, Việt Nam</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3 justify-text"></i>0938.27.27.09 | 0979.33.54.39</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>support@kmlogistics.com.vn </p>
-                    <div class="d-flex pt-2">
-                        <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a> -->
-                        <a class="btn btn-outline-light btn-social" 
-                        href="https://www.facebook.com/profile.php?id=61576221571286" 
-                        target="_blank"
-                        rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
-                        <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a> -->
-                        <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a> -->
-                    </div>
-                </div>
+    <div
+      class="container-fluid bg-dark text-light footer pt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+      style="margin-top: 6rem"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-12 col-md-6">
+            <h4 class="text-light mb-4">Thông tin liên hệ</h4>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3 justify-text"></i>Số 25, Đường
+              A5, Khu phố 9, Khu đô thị Đông Tăng Long, Phường Trường Thạnh,
+              Thành phố Thủ Đức, TP. Hồ Chí Minh, Việt Nam
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-phone-alt me-3 justify-text"></i>0938.27.27.09 |
+              0979.33.54.39
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-phone-square-alt me-3 justify-text"></i
+              >028.3636.9783
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>support@kmlogistics.com.vn
+            </p>
+            <div class="d-flex align-items-center pt-2">
+              <a
+                class="btn btn-outline-light btn-social me-2"
+                href="https://www.facebook.com/profile.php?id=61576221571286"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <p class="mb-0">
+                <a
+                  href="https://www.facebook.com/profile.php?id=61576221571286"
+                  class="text-light text-decoration-none"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  KM Global Logistics Co., Ltd
+                </a>
+              </p>
             </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- Footer End -->
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
-
+    <a
+      href="#"
+      class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -196,6 +323,5 @@
 
     <!-- Template Javascript -->
     <script src="../js/main.js"></script>
-</body>
-
+  </body>
 </html>

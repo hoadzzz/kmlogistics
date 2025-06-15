@@ -1,76 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>KM Global Logistics</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
 
     <!-- Favicon -->
-    <link href="img/logo-white.jpg" rel="icon">
+    <link href="img/logo-white.jpg" rel="icon" />
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-grow text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
     </div>
     <!-- Spinner End -->
 
-
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
-        <a href="index.html" class="navbar-brand bg d-flex align-items-center ">
-            <img src="img/logo.jpg" alt="Logo" style="max-height: 75px;">
-        </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Services</a>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
-            </div>
-            <div class="">
-                <div class="d-inline-flex align-items-center switch scale-half">
-                    <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
-                    <label for="language-toggle"></label>
-                    <span class="off">VN</span>
-                    <span class="on">EN</span>
-                </div>
-            </div>
+    <nav
+      class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0"
+    >
+      <a href="index.html" class="navbar-brand bg d-flex align-items-center">
+        <img src="img/logo.jpg" alt="Logo" style="max-height: 75px" />
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler me-4"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+          <a href="index.html" class="nav-item nav-link active">Home</a>
+          <a href="about.html" class="nav-item nav-link">About</a>
+          <a href="service.html" class="nav-item nav-link">Services</a>
+          <a href="contact.html" class="nav-item nav-link">Contact</a>
         </div>
+        <div class="">
+          <div class="d-inline-flex align-items-center switch scale-half">
+            <input
+              id="language-toggle"
+              class="check-toggle check-toggle-round-flat"
+              type="checkbox"
+            />
+            <label for="language-toggle"></label>
+            <span class="off">VN</span>
+            <span class="on">EN</span>
+          </div>
+        </div>
+      </div>
     </nav>
     <!-- Navbar End -->
 
-
     <!-- Carousel Start -->
-    <div class="container-fluid p-0 pb-5">
+    <div class="container-fluid p-0 pb-5 position-relative">
+      <div class="owl-carousel header-carousel position-relative mb-5">
+        <div class="owl-carousel-item position-relative">
+          <img class="img-fluid w-100" src="img/wrapper_home.jpg" alt="" />
+          <!-- Overlay để chứa button -->
+          <div class="position-absolute top-0 start-0 w-100 h-100">
+            <!-- Button nằm dưới mũi tên -->
+            <div
+              class="position-absolute start-50 translate-middle-x"
+              style="top: 90%; z-index: 10"
+            >
+              <a
+                href="#quote"
+                class="btn btn-primary py-md-3 px-md-5 animated slideInRight"
+              >
+                GET A QUOTE
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="container-fluid p-0 pb-5">
         <div class="owl-carousel header-carousel position-relative mb-5">
             <div class="owl-carousel-item position-relative">
                 <img class="img-fluid" src="img/kmcarousel-1.jpg" alt="">
@@ -109,348 +156,603 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Carousel End -->
-
 
     <!-- About Start -->
     <div class="container-fluid overflow-hidden py-5 px-lg-0">
-        <div class="container about py-5 px-lg-0">
-            <div class="row g-5 mx-lg-0">
-                <div class="col-lg-6 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/traotaykm.jpg" style="object-fit: cover;" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="text-secondary text-uppercase mb-3">#Get to Know</h6>
-                    <h1 class="mb-3 text-uppercase">KM Global Logistics</h1>
-                    <div class="mb-3" style="display: flex; align-items: center; gap: 10px;">
-                        <i class="fa fa-globe fa-3x text-primary mb-0"></i>
-                        <h5 class="mb-0">Comprehensive Logistics Solutions</h5>
-                    </div>
-                    <p class="mb-3 justify-text">KM Global Logistics is a trusted provider of end-to-end transportation and logistics solutions in Vietnam. We are committed to accompanying both individuals and businesses on every step of their growth journey.</p>
-                    <div class="mb-3" style="display: flex; align-items: center; gap: 10px;">
-                        <i class="fa fa-shipping-fast fa-3x text-primary mb-0"></i>
-                        <h5 class="mb-0">Commitment to Comprehensive Quality Service</h5>
-                    </div>
-                    <p class="mb-3">We are committed to delivering services that are fast – safe – flexible – and cost-effective, supported by a young, responsible, and dedicated team.</p>
-                    <a href="about.html" class="btn btn-primary py-3 px-5">Read more</a>
-                </div>
+      <div class="container about py-5 px-lg-0">
+        <div class="row g-5 mx-lg-0">
+          <div
+            class="col-lg-6 ps-lg-0 wow fadeInLeft"
+            data-wow-delay="0.1s"
+            style="min-height: 400px"
+          >
+            <div class="position-relative h-100">
+              <img
+                class="position-absolute img-fluid w-100 h-100"
+                src="img/traotaykm.jpg"
+                style="object-fit: cover"
+                alt=""
+              />
             </div>
+          </div>
+          <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
+            <h6 class="text-secondary text-uppercase mb-3">#Get to Know</h6>
+            <h1 class="mb-3 text-uppercase">KM Global Logistics</h1>
+            <div
+              class="mb-3"
+              style="display: flex; align-items: center; gap: 10px"
+            >
+              <i class="fa fa-globe fa-3x text-primary mb-0"></i>
+              <h5 class="mb-0">Comprehensive Logistics Solutions</h5>
+            </div>
+            <p class="mb-3 justify-text">
+              KM Global Logistics is a trusted provider of end-to-end
+              transportation and logistics solutions in Vietnam. We are
+              committed to accompanying both individuals and businesses on every
+              step of their growth journey.
+            </p>
+            <div
+              class="mb-3"
+              style="display: flex; align-items: center; gap: 10px"
+            >
+              <i class="fa fa-shipping-fast fa-3x text-primary mb-0"></i>
+              <h5 class="mb-0">Commitment to Comprehensive Quality Service</h5>
+            </div>
+            <p class="mb-3">
+              We are committed to delivering services that are fast – safe –
+              flexible – and cost-effective, supported by a young, responsible,
+              and dedicated team.
+            </p>
+            <a href="about.html" class="btn btn-primary py-3 px-5">Read more</a>
+          </div>
         </div>
+      </div>
     </div>
     <!-- About End -->
 
     <!-- Service Start -->
     <div class="container-xxl py-5">
-        <div class="container py-5">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="text-secondary text-uppercase">#Services</h6>
-                <h1 >Our Services</h1>
-                <p class="mb-5" style="font-size: 25px;">At KM Global Logistics, we provide a comprehensive range of logistics services designed to help clients save time, optimize costs, and operate efficiently — tailored for both individuals and businesses.</p>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4 wow fadeInUp d-flex" data-wow-delay="0.5s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/service-2.jpg" alt="">
-                        </div>
-                        <h6 class="mb-3 text-uppercase"><i class="fa fa-ship me-2"></i>Ocean Freight (FCL & LCL)</h6>
-                        <p class="mb-1 justify-text">Flexible, Global Sea Shipping Solutions.</p>
-                        <p class="mb-1"><i class="fas fa-check me-2"></i>Flexible scheduling.</p>
-                        <p class="mb-1"><i class="fas fa-check me-2"></i>Worldwide FCL/LCL shipping – specialized in North America lanes (USA & Canada).</p>
-                        <p class="mb-1"><i class="fas fa-check me-2"></i>Door-to-port or door-to-door service.</p>
-                        <p>
-                            <i class="fas fa-hand-point-right me-2"></i>
-                            <a href="service.html"  class="text-primary">Learn More</a> or 
-                            <a href="#quote"  class="text-primary">Request a Quote</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp d-flex" data-wow-delay="0.5s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/service-1.jpg" alt="">
-                        </div>
-                        <h6 class="mb-3 text-uppercase"><i class="fa fa-plane me-2"></i>Air Freight & Express Delivery</h6>
-                        <p class="mb-1">Fast & Reliable – Domestic & International.</p>
-                        <p class="mb-1"><i class="fas fa-check me-2"></i>Priority & economy service levels.</p>
-                        <p class="mb-1"><i class="fas fa-check me-2"></i>Airport-to-airport & door-to-door.</p>
-                        <p class="mb-1"><i class="fas fa-check me-2"></i>Rapid customs clearance.</p>
-                        <p>
-                            <i class="fas fa-hand-point-right me-2"></i>
-                            <a href="service.html"  class="text-primary">Learn More</a> or 
-                            <a href="#quote"  class="text-primary">Request a Quote</a>
-                        </p>
-                    </div>             
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp d-flex" data-wow-delay="0.5s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/containerkm.jpg" alt="">
-                        </div>
-                        <h6 class="mb-3 text-uppercase"><i class="fa fa-truck me-2"></i>Road Freight / Inland Transportation</h6>
-                        <p class="mb-1">Nationwide Trucking with Full Visibility.</p>
-                        <p class="mb-1"><i class="fas fa-check me-2"></i>Full truckload & consolidated cargo.</p>
-                        <p class="mb-1"><i class="fas fa-check me-2"></i>Door-to-door delivery with handling.</p>
-                        <p class="mb-1"><i class="fas fa-check me-2"></i>Real-time shipment updates.</p>
-                        <p>
-                            <i class="fas fa-hand-point-right me-2"></i>
-                            <a href="service.html"  class="text-primary">Learn More</a> or 
-                            <a href="#quote"  class="text-primary">Request a Quote</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp d-flex" data-wow-delay="0.3s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/declaration.jpg" alt="">
-                        </div>
-                        <h6 class="mb-3 text-uppercase"><i class="fa fa-file-invoice-dollar me-2"></i>Customs Brokerage Services</h6>
-                        <p class="mb-1">Hassle-Free Customs Clearance.</p>
-                        <p class="mb-1"><i class="fas fa-check me-2"></i>Import & export declaration handling.</p>
-                        <p class="mb-1"><i class="fas fa-check me-2"></i>HS code consulting & duty assessment.</p>
-                        <p class="mb-1"><i class="fas fa-check me-2"></i>Complete documentation support.</p>
-                        <p>
-                            <i class="fas fa-hand-point-right me-2"></i>
-                            <a href="service.html"  class="text-primary">Learn More</a> or 
-                            <a href="#quote"  class="text-primary">Request a Quote</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp d-flex" data-wow-delay="0.5s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/km3.jpg" alt="">
-                        </div>
-                        <h6 class="mb-3 text-uppercase"><i class="fa fa-globe me-2"></i>Total Logistics Solutions</h6>
-                        <p class="mb-1">Integrated End-to-End Logistics.</p>
-                        <p class="mb-1"><i class="fas fa-check me-2"></i>One-stop logistics partner.</p>
-                        <p class="mb-1"><i class="fas fa-check me-2"></i>Industry-specific tailored solutions.</p>
-                        <p class="mb-1"><i class="fas fa-check me-2"></i>Scalable for SMEs to global enterprises.</p>
-                        <p>
-                            <i class="fas fa-hand-point-right me-2"></i>
-                            <a href="service.html"  class="text-primary">Learn More</a> or 
-                            <a href="#quote"  class="text-primary">Request a Quote</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
+      <div class="container py-5">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+          <h6 class="text-secondary text-uppercase">#Services</h6>
+          <h1>Our Services</h1>
+          <p class="mb-5" style="font-size: 25px">
+            At KM Global Logistics, we provide a comprehensive range of
+            logistics services designed to help clients save time, optimize
+            costs, and operate efficiently — tailored for both individuals and
+            businesses.
+          </p>
         </div>
+        <div class="row g-4">
+          <div
+            class="col-md-6 col-lg-4 wow fadeInUp d-flex"
+            data-wow-delay="0.5s"
+          >
+            <div class="service-item p-4">
+              <div class="overflow-hidden mb-4">
+                <img class="img-fluid" src="img/service-2.jpg" alt="" />
+              </div>
+              <h6 class="mb-3 text-uppercase">
+                <i class="fa fa-ship me-2"></i>Ocean Freight (FCL & LCL)
+              </h6>
+              <p class="mb-1 justify-text">
+                Flexible, Global Sea Shipping Solutions.
+              </p>
+              <p class="mb-1">
+                <i class="fas fa-check me-2"></i>Flexible scheduling.
+              </p>
+              <p class="mb-1">
+                <i class="fas fa-check me-2"></i>Worldwide FCL/LCL shipping –
+                specialized in North America lanes (USA & Canada).
+              </p>
+              <p class="mb-1">
+                <i class="fas fa-check me-2"></i>Door-to-port or door-to-door
+                service.
+              </p>
+              <p>
+                <i class="fas fa-hand-point-right me-2"></i>
+                <a href="service.html" class="text-primary">Learn More</a> or
+                <a href="#quote" class="text-primary">Request a Quote</a>
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-4 wow fadeInUp d-flex"
+            data-wow-delay="0.5s"
+          >
+            <div class="service-item p-4">
+              <div class="overflow-hidden mb-4">
+                <img class="img-fluid" src="img/service-1.jpg" alt="" />
+              </div>
+              <h6 class="mb-3 text-uppercase">
+                <i class="fa fa-plane me-2"></i>Air Freight & Express Delivery
+              </h6>
+              <p class="mb-1">Fast & Reliable – Domestic & International.</p>
+              <p class="mb-1">
+                <i class="fas fa-check me-2"></i>Priority & economy service
+                levels.
+              </p>
+              <p class="mb-1">
+                <i class="fas fa-check me-2"></i>Airport-to-airport &
+                door-to-door.
+              </p>
+              <p class="mb-1">
+                <i class="fas fa-check me-2"></i>Rapid customs clearance.
+              </p>
+              <p>
+                <i class="fas fa-hand-point-right me-2"></i>
+                <a href="service.html" class="text-primary">Learn More</a> or
+                <a href="#quote" class="text-primary">Request a Quote</a>
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-4 wow fadeInUp d-flex"
+            data-wow-delay="0.5s"
+          >
+            <div class="service-item p-4">
+              <div class="overflow-hidden mb-4">
+                <img class="img-fluid" src="img/containerkm.jpg" alt="" />
+              </div>
+              <h6 class="mb-3 text-uppercase">
+                <i class="fa fa-truck me-2"></i>Road Freight / Inland
+                Transportation
+              </h6>
+              <p class="mb-1">Nationwide Trucking with Full Visibility.</p>
+              <p class="mb-1">
+                <i class="fas fa-check me-2"></i>Full truckload & consolidated
+                cargo.
+              </p>
+              <p class="mb-1">
+                <i class="fas fa-check me-2"></i>Door-to-door delivery with
+                handling.
+              </p>
+              <p class="mb-1">
+                <i class="fas fa-check me-2"></i>Real-time shipment updates.
+              </p>
+              <p>
+                <i class="fas fa-hand-point-right me-2"></i>
+                <a href="service.html" class="text-primary">Learn More</a> or
+                <a href="#quote" class="text-primary">Request a Quote</a>
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-4 wow fadeInUp d-flex"
+            data-wow-delay="0.3s"
+          >
+            <div class="service-item p-4">
+              <div class="overflow-hidden mb-4">
+                <img class="img-fluid" src="img/declaration.jpg" alt="" />
+              </div>
+              <h6 class="mb-3 text-uppercase">
+                <i class="fa fa-file-invoice-dollar me-2"></i>Customs Brokerage
+                Services
+              </h6>
+              <p class="mb-1">Hassle-Free Customs Clearance.</p>
+              <p class="mb-1">
+                <i class="fas fa-check me-2"></i>Import & export declaration
+                handling.
+              </p>
+              <p class="mb-1">
+                <i class="fas fa-check me-2"></i>HS code consulting & duty
+                assessment.
+              </p>
+              <p class="mb-1">
+                <i class="fas fa-check me-2"></i>Complete documentation support.
+              </p>
+              <p>
+                <i class="fas fa-hand-point-right me-2"></i>
+                <a href="service.html" class="text-primary">Learn More</a> or
+                <a href="#quote" class="text-primary">Request a Quote</a>
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-4 wow fadeInUp d-flex"
+            data-wow-delay="0.5s"
+          >
+            <div class="service-item p-4">
+              <div class="overflow-hidden mb-4">
+                <img class="img-fluid" src="img/km3.jpg" alt="" />
+              </div>
+              <h6 class="mb-3 text-uppercase">
+                <i class="fa fa-globe me-2"></i>Total Logistics Solutions
+              </h6>
+              <p class="mb-1">Integrated End-to-End Logistics.</p>
+              <p class="mb-1">
+                <i class="fas fa-check me-2"></i>One-stop logistics partner.
+              </p>
+              <p class="mb-1">
+                <i class="fas fa-check me-2"></i>Industry-specific tailored
+                solutions.
+              </p>
+              <p class="mb-1">
+                <i class="fas fa-check me-2"></i>Scalable for SMEs to global
+                enterprises.
+              </p>
+              <p>
+                <i class="fas fa-hand-point-right me-2"></i>
+                <a href="service.html" class="text-primary">Learn More</a> or
+                <a href="#quote" class="text-primary">Request a Quote</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Service End -->
 
     <!-- Why choice Start -->
     <div class="container-fluid overflow-hidden py-5 px-lg-0">
-        <div class="container feature py-5 px-lg-0">
-            <div class="row g-5 mx-lg-0">
-                <div class="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="text-secondary text-uppercase mb-3">#Why choose us?</h6>
-                    <h1 class="mb-3">Why Choose KM Global Logistics?</h1>
-                    <div class="d-flex mb-3 align-items-start wow fadeInUp" data-wow-delay="0.3s">
-                        <i class="fa fa-tags text-primary fa-3x flex-shrink-0 me-1"></i>
-                        <div class="ms-4">
-                            <h5 class="mb-1">Competitive and transparent pricing.</h5>
-                            <p class="mb-0 justify-text">No hidden surprises – all costs are quoted in advance and fully transparent.</p>
-                        </div>
-                    </div>
-                    <div class="d-flex mb-3 align-items-start wow fadeInUp" data-wow-delay="0.3s">
-                        <i class="fa fa-headphones text-primary fa-3x flex-shrink-0 me-3"></i>
-                        <div class="ms-4">
-                            <h5 class="mb-1">Flexible support – attentive customer service</h5>
-                            <p class="mb-0 justify-text">We’re available 24/7 – from small individual shipments to full-service logistics contracts for businesses.</p>
-                        </div>
-                    </div>
-                    <div class="d-flex mb-3 align-items-start wow fadeInUp" data-wow-delay="0.3s">
-                        <i class="fa fa-shipping-fast text-primary fa-3x flex-shrink-0 me-1"></i>
-                        <div class="ms-4">
-                            <h5 class="mb-1">On-time delivery – real-time shipment tracking</h5>
-                            <p class="mb-0 justify-text">We are committed to on-time delivery, giving you peace of mind about your shipment schedule. Every step of the transportation process is closely monitored to ensure transparency and timely updates.</p>
-                        </div>
-                    </div>
-                    <div class="d-flex mb-3 align-items-start wow fadeInUp" data-wow-delay="0.3s">
-                        <i class="fa fa-handshake text-primary fa-3x flex-shrink-0 me-1"></i>
-                        <div class="ms-4">
-                            <h5 class="mb-1">A trusted logistics partner for every shipment</h5>
-                            <p class="mb-0 justify-text">We're with you every step of the way – providing dedicated support from departure to delivery, ensuring each shipment is smooth and secure.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s" style="min-height: 400px; height: 600px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/whyus.png" style="object-fit: cover;" alt="">
-                    </div>
-                </div>
+      <div class="container feature py-5 px-lg-0">
+        <div class="row g-5 mx-lg-0">
+          <div class="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="text-secondary text-uppercase mb-3">#Why choose us?</h6>
+            <h1 class="mb-3">Why Choose KM Global Logistics?</h1>
+            <div
+              class="d-flex mb-3 align-items-start wow fadeInUp"
+              data-wow-delay="0.3s"
+            >
+              <i class="fa fa-tags text-primary fa-3x flex-shrink-0 me-1"></i>
+              <div class="ms-4">
+                <h5 class="mb-1">Competitive and transparent pricing.</h5>
+                <p class="mb-0 justify-text">
+                  No hidden surprises – all costs are quoted in advance and
+                  fully transparent.
+                </p>
+              </div>
             </div>
+            <div
+              class="d-flex mb-3 align-items-start wow fadeInUp"
+              data-wow-delay="0.3s"
+            >
+              <i
+                class="fa fa-headphones text-primary fa-3x flex-shrink-0 me-3"
+              ></i>
+              <div class="ms-4">
+                <h5 class="mb-1">
+                  Flexible support – attentive customer service
+                </h5>
+                <p class="mb-0 justify-text">
+                  We’re available 24/7 – from small individual shipments to
+                  full-service logistics contracts for businesses.
+                </p>
+              </div>
+            </div>
+            <div
+              class="d-flex mb-3 align-items-start wow fadeInUp"
+              data-wow-delay="0.3s"
+            >
+              <i
+                class="fa fa-shipping-fast text-primary fa-3x flex-shrink-0 me-1"
+              ></i>
+              <div class="ms-4">
+                <h5 class="mb-1">
+                  On-time delivery – real-time shipment tracking
+                </h5>
+                <p class="mb-0 justify-text">
+                  We are committed to on-time delivery, giving you peace of mind
+                  about your shipment schedule. Every step of the transportation
+                  process is closely monitored to ensure transparency and timely
+                  updates.
+                </p>
+              </div>
+            </div>
+            <div
+              class="d-flex mb-3 align-items-start wow fadeInUp"
+              data-wow-delay="0.3s"
+            >
+              <i
+                class="fa fa-handshake text-primary fa-3x flex-shrink-0 me-1"
+              ></i>
+              <div class="ms-4">
+                <h5 class="mb-1">
+                  A trusted logistics partner for every shipment
+                </h5>
+                <p class="mb-0 justify-text">
+                  We're with you every step of the way – providing dedicated
+                  support from departure to delivery, ensuring each shipment is
+                  smooth and secure.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 pe-lg-0 wow fadeInRight"
+            data-wow-delay="0.1s"
+            style="min-height: 400px; height: 600px"
+          >
+            <div class="position-relative h-100">
+              <img
+                class="position-absolute img-fluid w-100 h-100"
+                src="img/whyus.png"
+                style="object-fit: cover"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- why choice End -->
-    
+
     <!-- Quote Start -->
     <div class="container-xxl py-5" id="quote">
-        <div class="container py-5">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="text-secondary text-uppercase mb-2">#Get A Quote</h6>
-                    <h1 class="mb-3 justify-text">Request A Free Quote!</h1>
-                    <p class="mb-3 justify-text">Our team of specialists is always ready to assist you promptly and wholeheartedly. Don’t hesitate to get in touch for the best solution tailored to your needs.</p>
-                    <div class="d-flex align-items-center">
-                        <i class="fa fa-headphones fa-2x flex-shrink-0 bg-primary p-3 text-white"></i>
-                        <div class="ps-4">
-                            <h6>Hotline / Zalo</h6>
-                            <h3 class="text-primary m-0 d-inline-block me-3">0938.27.27.09 |</h3>
-                            <h3 class="text-primary m-0 d-inline-block">0979.33.54.39</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="bg-light text-center p-5 wow fadeIn" data-wow-delay="0.5s">
-                        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
-                        <form 
-                        id="form-quote"
-                        action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfSZLsWavA1HPfQkOMTWA4qX2JC1Gsv--p_rDHrDXuUTs30iA/formResponse"
-                        method="POST"
-                        target="hidden_iframe"
-                        onsubmit="return formSubmitted();"
-                        >
-                            <div class="row g-3">
-                                <div class="col-12">
-                                    <input type="text" class="form-control border-0" name="entry.1944530592" placeholder="Your Name *" style="height: 55px;">
-                                </div>
-                                <div class="col-12">
-                                    <input type="email" class="form-control border-0" name="entry.1408216351" placeholder="Your Email *" style="height: 55px;">
-                                </div>
-                                <div class="col-12">
-                                    <input type="text" class="form-control border-0" name="entry.134124479" placeholder="Your Phone Number *" style="height: 55px;">
-                                </div>
-                                <div class="col-12">
-                                    <textarea class="form-control border-0" name="entry.1527360012" placeholder="Special Note"></textarea>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Send Request</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+      <div class="container py-5">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="text-secondary text-uppercase mb-2">#Get A Quote</h6>
+            <h1 class="mb-3 justify-text">Request A Free Quote!</h1>
+            <p class="mb-3 justify-text">
+              Our team of specialists is always ready to assist you promptly and
+              wholeheartedly. Don’t hesitate to get in touch for the best
+              solution tailored to your needs.
+            </p>
+            <div class="d-flex align-items-center">
+              <i
+                class="fa fa-headphones fa-2x flex-shrink-0 bg-primary p-3 text-white"
+              ></i>
+              <div class="ps-4">
+                <h6>Hotline / Zalo</h6>
+                <h3 class="text-primary m-0 d-inline-block me-3">
+                  0938.27.27.09 |
+                </h3>
+                <h3 class="text-primary m-0 d-inline-block">0979.33.54.39</h3>
+              </div>
             </div>
+          </div>
+          <div class="col-lg-6">
+            <div
+              class="bg-light text-center p-5 wow fadeIn"
+              data-wow-delay="0.5s"
+            >
+              <iframe
+                name="hidden_iframe"
+                id="hidden_iframe"
+                style="display: none"
+              ></iframe>
+              <form
+                id="form-quote"
+                action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfSZLsWavA1HPfQkOMTWA4qX2JC1Gsv--p_rDHrDXuUTs30iA/formResponse"
+                method="POST"
+                target="hidden_iframe"
+                onsubmit="return formSubmitted();"
+              >
+                <div class="row g-3">
+                  <div class="col-12">
+                    <input
+                      type="text"
+                      class="form-control border-0"
+                      name="entry.1944530592"
+                      placeholder="Your Name *"
+                      style="height: 55px"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <input
+                      type="email"
+                      class="form-control border-0"
+                      name="entry.1408216351"
+                      placeholder="Your Email *"
+                      style="height: 55px"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <input
+                      type="text"
+                      class="form-control border-0"
+                      name="entry.134124479"
+                      placeholder="Your Phone Number *"
+                      style="height: 55px"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <textarea
+                      class="form-control border-0"
+                      name="entry.1527360012"
+                      placeholder="Special Note"
+                    ></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button class="btn btn-primary w-100 py-3" type="submit">
+                      Send Request
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- Quote End -->
 
     <!-- Partners Start -->
     <div class="container-xxl py-5">
-        <div class="container py-5">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="text-secondary text-uppercase">#Partners</h6>
-                <h1>Strategic Partnerships</h1>
-                <p class="mb-2" style="font-size: 25px;">We collaborate with leading global shipping lines and airlines to ensure reliable, cost-effective, and timely logistics solutions for our clients.</p>
-            </div>
-            <div class="container py-5">
-                <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-4 text-center">
-                    <div class="col">
-                        <img src="img/partner1.png" class="img-fluid wow rubberBand" alt="Logo 1">
-                    </div>
-                    <div class="col">
-                        <img src="img/partner2.png" class="img-fluid wow rubberBand" alt="Logo 2">
-                    </div>
-                    <div class="col">
-                        <img src="img/partner3.png" class="img-fluid wow rubberBand" alt="Logo 3">
-                    </div>
-                    <div class="col">
-                        <img src="img/partner4.png" class="img-fluid wow rubberBand" alt="Logo 4">
-                    </div>
-                    <div class="col">
-                        <img src="img/partner5.png" class="img-fluid wow rubberBand" alt="Logo 5">
-                    </div>
-                    <div class="col">
-                        <img src="img/partner6.png" class="img-fluid wow rubberBand" alt="Logo 6">
-                    </div>
-                    <div class="col">
-                        <img src="img/partner7.png" class="img-fluid wow rubberBand" alt="Logo 7">
-                    </div>
-                    <div class="col">
-                        <img src="img/partner8.png" class="img-fluid wow rubberBand" alt="Logo 8">
-                    </div>
-                    <div class="col">
-                        <img src="img/partner9.png" class="img-fluid wow rubberBand" alt="Logo 9">
-                    </div>
-                    <div class="col">
-                        <img src="img/partner10.png" class="img-fluid wow rubberBand" alt="Logo 10">
-                    </div>
-                    <div class="col">
-                        <img src="img/partner11.png" class="img-fluid wow rubberBand" alt="Logo 11">
-                    </div>
-                    <div class="col">
-                        <img src="img/partner12.png" class="img-fluid wow rubberBand" alt="Logo 12">
-                    </div>
-                </div>
-            </div>
+      <div class="container py-5">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+          <h6 class="text-secondary text-uppercase">#Partners</h6>
+          <h1>Strategic Partnerships</h1>
+          <p class="mb-2" style="font-size: 25px">
+            We collaborate with leading global shipping lines and airlines to
+            ensure reliable, cost-effective, and timely logistics solutions for
+            our clients.
+          </p>
         </div>
+        <div class="container py-5">
+          <div
+            class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-4 text-center"
+          >
+            <div class="col">
+              <img
+                src="img/partner1.png"
+                class="img-fluid wow rubberBand"
+                alt="Logo 1"
+              />
+            </div>
+            <div class="col">
+              <img
+                src="img/partner2.png"
+                class="img-fluid wow rubberBand"
+                alt="Logo 2"
+              />
+            </div>
+            <div class="col">
+              <img
+                src="img/partner3.png"
+                class="img-fluid wow rubberBand"
+                alt="Logo 3"
+              />
+            </div>
+            <div class="col">
+              <img
+                src="img/partner4.png"
+                class="img-fluid wow rubberBand"
+                alt="Logo 4"
+              />
+            </div>
+            <div class="col">
+              <img
+                src="img/partner5.png"
+                class="img-fluid wow rubberBand"
+                alt="Logo 5"
+              />
+            </div>
+            <div class="col">
+              <img
+                src="img/partner6.png"
+                class="img-fluid wow rubberBand"
+                alt="Logo 6"
+              />
+            </div>
+            <div class="col">
+              <img
+                src="img/partner7.png"
+                class="img-fluid wow rubberBand"
+                alt="Logo 7"
+              />
+            </div>
+            <div class="col">
+              <img
+                src="img/partner8.png"
+                class="img-fluid wow rubberBand"
+                alt="Logo 8"
+              />
+            </div>
+            <div class="col">
+              <img
+                src="img/partner9.png"
+                class="img-fluid wow rubberBand"
+                alt="Logo 9"
+              />
+            </div>
+            <div class="col">
+              <img
+                src="img/partner10.png"
+                class="img-fluid wow rubberBand"
+                alt="Logo 10"
+              />
+            </div>
+            <div class="col">
+              <img
+                src="img/partner11.png"
+                class="img-fluid wow rubberBand"
+                alt="Logo 11"
+              />
+            </div>
+            <div class="col">
+              <img
+                src="img/partner12.png"
+                class="img-fluid wow rubberBand"
+                alt="Logo 12"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Partners End -->
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-12 col-md-6">
-                    <h4 class="text-light mb-4">Contact Information</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3 justify-text"></i>No. 25, A5 Street, Quarter 9, Dong Tang Long Urban Area, Truong Thanh Ward, Thu Duc City, Ho Chi Minh City, VietNam</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3 justify-text"></i>0938.27.27.09 | 0979.33.54.39</p>
-                    <p class="mb-2"><i class="fa fa-headphones me-3 justify-text"></i>028.3636.9783</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>support@kmlogistics.com.vn </p>
-                    <div class="d-flex align-items-center pt-2">
-                    <a
-                        class="btn btn-outline-light btn-social me-2"
-                        href="https://www.facebook.com/profile.php?id=61576221571286"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <p class="mb-0">
-                        <a
-                        href="https://www.facebook.com/profile.php?id=61576221571286"
-                        class="text-light text-decoration-none"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        >
-                        KM Global Logistics Co., Ltd
-                        </a>
-                    </p>
-                    </div>
-                    <div class="d-flex align-items-center pt-2">
-                    <a
-                        class="btn btn-outline-light btn-social me-2"
-                        href="https://www.linkedin.com/company/km-global-logistics-co-ltd/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <p class="mb-0">
-                        <a
-                        href="https://www.linkedin.com/company/km-global-logistics-co-ltd/"
-                        class="text-light text-decoration-none"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        >
-                        KM GLOBAL LOGISTICS CO.,LTD
-                        </a>
-                    </p>
-                    </div>
-                </div>
+    <div
+      class="container-fluid bg-dark text-light footer pt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+      style="margin-top: 6rem"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-12 col-md-6">
+            <h4 class="text-light mb-4">Contact Information</h4>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3 justify-text"></i>No. 25, A5
+              Street, Quarter 9, Dong Tang Long Urban Area, Truong Thanh Ward,
+              Thu Duc City, Ho Chi Minh City, VietNam
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-phone-alt me-3 justify-text"></i>0938.27.27.09 |
+              0979.33.54.39
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-headphones me-3 justify-text"></i>028.3636.9783
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>support@kmlogistics.com.vn
+            </p>
+            <div class="d-flex align-items-center pt-2">
+              <a
+                class="btn btn-outline-light btn-social me-2"
+                href="https://www.facebook.com/profile.php?id=61576221571286"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <p class="mb-0">
+                <a
+                  href="https://www.facebook.com/profile.php?id=61576221571286"
+                  class="text-light text-decoration-none"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  KM Global Logistics Co., Ltd
+                </a>
+              </p>
             </div>
+            <div class="d-flex align-items-center pt-2">
+              <a
+                class="btn btn-outline-light btn-social me-2"
+                href="https://www.linkedin.com/company/km-global-logistics-co-ltd/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <p class="mb-0">
+                <a
+                  href="https://www.linkedin.com/company/km-global-logistics-co-ltd/"
+                  class="text-light text-decoration-none"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  KM GLOBAL LOGISTICS CO.,LTD
+                </a>
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- Footer End -->
 
-
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
-
+    <a
+      href="#"
+      class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -463,6 +765,5 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>
